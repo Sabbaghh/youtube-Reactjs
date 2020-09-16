@@ -1,0 +1,34 @@
+
+.AppConatiner{ 
+    margin: 2% auto;
+    width: 90%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2%;
+    background: #FFF;
+}
+
+.videos-Sections { 
+    width: 100%;
+    height:80% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+}
+
+.videos-Sections .first-video { 
+    width:100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.videos-Sections .video-list { 
+    width:100%;
+    height: 100%;
+}

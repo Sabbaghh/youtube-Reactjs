@@ -1,0 +1,9 @@
+.no-video { 
+    width: 100%;
+    background-color: teal;
+    text-align: center;
+    color: #FFF;
+    font-family: monospace;
+    height: 8%;
+    font-size: 50px;
+}

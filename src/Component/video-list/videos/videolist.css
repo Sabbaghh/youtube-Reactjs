@@ -1,0 +1,33 @@
+.video-list { 
+    width:40%;
+    height: 100%;
+    position: relative;
+    overflow-y: scroll;
+}
+
+
+ul {
+    margin-top: 1%;
+    position: absolute;
+    left:1%;
+    list-style: none;
+    width: 98%;
+    height: 50%;
+}
+
+/* scrollbar */
+/* Track */
+::-webkit-scrollbar{ 
+    width: 10px;
+    box-shadow: none
+}
+
+::-webkit-scrollbar-track{ 
+    border: none;
+}
+
+::-webkit-scrollbar-thumb{ 
+    background: #3c6e71;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px black;
+}
